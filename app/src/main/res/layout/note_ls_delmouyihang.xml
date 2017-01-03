@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="把解析的response 赋值给一个新的Bean对象  然后点到获取到数据的那一行(类型是List).remove之后刷新适配器(myAdapter.no...)
+            就可以了"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_refresglsarr_1" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_refresglsarr_2" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_refresglsarr_3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_refresglsarr_4" />
+
+    </LinearLayout>
+
+</ScrollView>

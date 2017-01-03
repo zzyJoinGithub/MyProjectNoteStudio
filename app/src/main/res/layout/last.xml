@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArrayList是List的实现类(差不多是实体化对象),用法上ArrayList和List没有区别\n\n"
+            android:textColor="#00ff00"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bean要clean的话就先getxxx到可以get(i)的时候再.clean\n\n"
+            android:textColor="#00ff00"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jar包和依赖其实是一个东西,Jar包你可以改,但是依赖你只能用里面的方法
+            想看原码可以换成project模式然后点下面的External Libralies里面\n\n"
+            android:textColor="#00ff00"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="25dp"
+            android:text="三种上拉加载下拉刷新
+            swip , PullToRefresh , Lrecycleview\n\n"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="25dp"
+            android:text="硕哥推荐的书
+            \n Android群英传之神兵利器(必须有神兵利器)
+            \n Android 开发艺术探索
+            \n HeadFirst设计模式
+            \n Android高级进阶!!!!(这个好)\n\n"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

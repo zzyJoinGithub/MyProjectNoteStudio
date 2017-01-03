@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textzhuyi"
+            android:text="栏目页一级跳二级就是一级数据里面的id就是第二个页面Body体的的id
+            \n\n\n同理  二级界面的id和Cid就是三级界面body体的id和cid"/>
+
+
+
+        <TextView
+            style="@style/texttimu"
+            android:text="一级推荐内容接口"/>
+
+        <TextView
+            style="@style/textwenben"
+            android:text="通过抓接口软件找到对应接口 , 点击response 把下面一大段放到网址Json解析里面"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_4" />
+
+        <TextView
+            style="@style/texttimu"
+            android:text="抓接口软件的Request  , 上面一栏  第一行就是Url\n\n\n
+            POST http://new.yohoboys.com/yohoboyins/v5/channel/recommendList HTTP/1.1
+            \n\n\n   从http开始到 HTTP的H之前就是url \n\n\n  一般get请求一级就到这里了"/>
+
+        <TextView
+            style="@style/texttimu"
+            android:text="栏目一级页面"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_5" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_yohocon_6" />
+
+
+        <TextView
+            style="@style/texttimu"
+            android:text="上面的Request的下面一栏(Post解析的Body体)
+            \n\n\n  复制用网址UTF_8转换成  稍微能看得懂的语言
+            下图就是"
+            />
+
+
+
+        <TextView
+            style="@style/textwenben"
+            android:text="想看数据网址的话把没UTF_8的放到PostMan里面key值是parameters
+               value 值是=号后面的%到最后的%   "/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_7" />
+        <TextView
+            style="@style/texttimu"
+            android:text="用Map存放Body体    Key值是 parameters
+            \n value是由两个{}括起来的整体   每个小内容用逗号分开  下面图片里面先新建HashMap map
+             \n\n\n  一对一对往里放 放到小key是authInfo  后面又是一个{}然后再新建一个HashMap mm
+             \n\n\n  放好之后把 mm转化成String类型放到map里面 (String a = newGson().toJson(mm).toString)
+             \n\n\n  放好之后把 map转化成String类型放到新建的HashMap mapsure(最终的map)里面
+             (String value = new Gson().toJson(map).toString)   mapsure.put(parameters , value);
+             如果有加载  找出变化的地方(一会写)
+             "/>
+
+
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_8" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_91" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_92" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_93" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_911" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_921" />
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_931" />
+
+        <TextView
+            style="@style/texttimu"
+            android:text="结果就是点击的那个里面有一个值是id就是进去以后的HashMap里面的id值
+            \n  不同的点进去也只有id不同  所以跳转的时候把id传过去(url传过去是因为头布局需要的)"/>
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_yohocon_10"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

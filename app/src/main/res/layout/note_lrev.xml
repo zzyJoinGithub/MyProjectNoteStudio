@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:text="注意!!!lr绑定适配器的位置,要在解析下面(防止加载报错)"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="加依赖"
+            android:textSize="10dp"/>
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_lr_1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="在依赖上面添加  注意一定是在allprojects里面"
+            android:textSize="10dp"/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="适配器里面要初始化data,自己定义clean方法"
+            android:textSize="10dp"/>
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_4" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_5" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_6" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_lr_7" />
+    </LinearLayout>
+
+</ScrollView>

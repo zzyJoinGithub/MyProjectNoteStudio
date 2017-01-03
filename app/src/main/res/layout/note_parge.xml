@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实体类继承parge   setget方法自己写    把复写的方法重新给一下  自己给写个没参的构造方法  "
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_parge_1" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_parge_2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_parge_3" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_parge_4" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/demo_parge_5" />
+    </LinearLayout>
+
+</ScrollView>

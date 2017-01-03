@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabLayout把下面的线变没  app:tabIndicatorHeight=0dp
+            设置文字的字体和样式"
+            android:textColor="#00ff00"
+            android:textSize="20sp" />
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_tab__1"/>
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/demo_tab__2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText左边添加图片属性---android:drawableLeft=
+            magin属性可以让局左的图片空出一些位置"
+            android:textColor="#00ff00"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cmd+alt+m------把方法提出来"
+            android:textColor="#00ff00"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cmd+alt+f------变成全局变量"
+            android:textColor="#00ff00"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

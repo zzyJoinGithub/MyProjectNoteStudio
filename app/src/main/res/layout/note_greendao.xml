@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前面三张是在build.gradle(Module:app)里面
+            最后一张是build.gradle(project)"
+            android:textSize="15dp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/greendao_1" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/greendao_2" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_3" />
+
+        <ImageView
+            style="@style/NoteStySmall"
+            android:src="@mipmap/greendao_4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先写实体类 然后再MakeProject 再写主活动"
+            android:textSize="15dp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_5" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_6" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_7" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_8" />
+
+        <ImageView
+            style="@style/NoteSty"
+            android:src="@mipmap/greendao_9" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

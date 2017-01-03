@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:text="底部选择框"
+            android:id="@+id/demo_diasty1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:text="中间选择框"
+            android:id="@+id/demo_diasty2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:text="中间选择框(单键)"
+            android:id="@+id/demo_diasty3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:text="MD风格对话框"
+            android:id="@+id/demo_diasty4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:text="MD风格中间选择框"
+            android:id="@+id/demo_diasty5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:text="MD风格编辑框"
+            android:id="@+id/demo_diasty6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+</ScrollView>
